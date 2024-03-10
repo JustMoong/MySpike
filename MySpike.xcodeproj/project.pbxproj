@@ -14,6 +14,7 @@
 		F97172BF2B9D9099000B2A6F /* MySpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172BE2B9D9099000B2A6F /* MySpikeTests.swift */; };
 		F97172C92B9D9099000B2A6F /* MySpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */; };
 		F97172CB2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */; };
+		F97172D82B9D9166000B2A6F /* RecentTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172D72B9D9166000B2A6F /* RecentTrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F97172C42B9D9099000B2A6F /* MySpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITests.swift; sourceTree = "<group>"; };
 		F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F97172D72B9D9166000B2A6F /* RecentTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */,
+				F97172D72B9D9166000B2A6F /* RecentTrackingView.swift */,
 				F97172AF2B9D9098000B2A6F /* ContentView.swift */,
 				F97172B12B9D9099000B2A6F /* Assets.xcassets */,
 				F97172B32B9D9099000B2A6F /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97172D82B9D9166000B2A6F /* RecentTrackingView.swift in Sources */,
 				F97172B02B9D9098000B2A6F /* ContentView.swift in Sources */,
 				F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */,
 			);
