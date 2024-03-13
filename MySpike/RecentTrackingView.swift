@@ -9,8 +9,14 @@ import SwiftUI
 
 struct RecentTrackingView: View {
     var body: some View {
-        Text("Today, March 10th")
-            .multilineTextAlignment(.leading)
+        HStack {
+            Text("Today, March 10th")
+                .font(.system(.title, weight: .medium))
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                .clipped()
+        }
+        .frame(maxHeight: .infinity)
     }
 }
 

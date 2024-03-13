@@ -15,3 +15,9 @@ struct MySpikeApp: App {
         }
     }
 }
+
+struct MySpikeApp_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
