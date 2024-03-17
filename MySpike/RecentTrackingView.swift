@@ -13,15 +13,15 @@ struct RecentTrackingView: View {
             HStack {
                 Image(systemName: "square.and.arrow.up.circle.fill") //Condition Icon
                 Spacer() //For flexible layout auto spacing
-                Text("Today, March 10th") //Value: Today
+                Text("Today, March 10th") //Replace Value: Today
                     .font(.system(.title, weight: .medium))
                     .padding()
                     .clipped()
             }
             Spacer()
             HStack {
-                Text("Value")
-        }        
+                Text("Value")//Replace to NoteView
+        }
             }
         .background(.white)
         }
