@@ -9,16 +9,25 @@ import SwiftUI
 
 struct RecentTrackingView: View {
     var body: some View {
-        HStack {
-            Text("Today, March 10th")
-                .font(.system(.title, weight: .medium))
+        VStack {
+            HStack {
+                Image(systemName: "square.and.arrow.up.circle.fill") //Condition Icon
+                Spacer() //For flexible layout auto spacing
+                Text("Today, March 10th") //Value: Today
+                    .font(.system(.title, weight: .medium))
                     .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                .clipped()
+                    .clipped()
+            }
+            Spacer()
+            HStack {
+                Text("Value")
+        }        
+            }
+        .background(.white)
         }
-        .frame(maxHeight: .infinity)
     }
-}
+    
+
 
 #Preview {
     RecentTrackingView()

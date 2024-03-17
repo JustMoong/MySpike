@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90B54732BA57BE2006C907C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B54722BA57BE2006C907C /* DetailsView.swift */; };
 		F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */; };
 		F97172B02B9D9098000B2A6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172AF2B9D9098000B2A6F /* ContentView.swift */; };
 		F97172B22B9D9099000B2A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97172B12B9D9099000B2A6F /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F90B54722BA57BE2006C907C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		F97172AA2B9D9098000B2A6F /* MySpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeApp.swift; sourceTree = "<group>"; };
 		F97172AF2B9D9098000B2A6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */,
+				F90B54722BA57BE2006C907C /* DetailsView.swift */,
 				F97172D72B9D9166000B2A6F /* RecentTrackingView.swift */,
 				F97172AF2B9D9098000B2A6F /* ContentView.swift */,
 				F97172B12B9D9099000B2A6F /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F97172D82B9D9166000B2A6F /* RecentTrackingView.swift in Sources */,
+				F90B54732BA57BE2006C907C /* DetailsView.swift in Sources */,
 				F97172B02B9D9098000B2A6F /* ContentView.swift in Sources */,
 				F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */,
 			);
