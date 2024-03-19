@@ -1,4 +1,4 @@
-//
+//2BA19C76-A492-4BFE-8F1A-2D7F6F24F60F
 //  DetailsView.swift
 //  MySpike
 //
@@ -10,7 +10,7 @@
 import SwiftUI
 import UIKit
 
-struct DetailsView: View {
+struct HomeView: View {
     var body: some View {
         VStack {
             VStack {
@@ -24,20 +24,21 @@ struct DetailsView: View {
                 LazyHGrid(rows: [GridItem(.flexible())], spacing: 16) {
                     ForEach(0..<5) { _ in // Replace with your data model here
                         //5개가 될 때까지 반복 표시 구문
-                        ContentView()
+                        RecentTrackingView()
                         //택스트는 중앙이 아닌 좌상단 leading으로 배치되어야 함.
 
                     }
                 }
             }
-            .padding(.vertical, 64)
+            .padding()
             Spacer()
         }
         .padding(.horizontal, 16)
+        
     }
 }
 
 
 #Preview {
-    DetailsView()
+    HomeView()
 }

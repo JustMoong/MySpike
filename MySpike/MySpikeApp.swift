@@ -6,18 +6,19 @@
 //
 
 import SwiftUI
+import UIKit
 
 @main
 struct MySpikeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
 
 struct MySpikeApp_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
