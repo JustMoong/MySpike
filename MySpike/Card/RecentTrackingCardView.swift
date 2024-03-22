@@ -13,14 +13,10 @@ struct RecentTrackingView: View {
         VStack {
             HStack(alignment: .top) {
                 // Space Between
-                Circle() //Replace Graphic Assets in Here
-                    .frame(width: 64, height: 64)
+                TrackingSymbolView()
                 Spacer() //Empty Area
                 // Alternative Views and Spacers
-                Text("오늘, 3월 8일\n기분: 매우 좋음")
-                  .font(.system(.title2, weight: .bold))
-                  .lineSpacing(12)
-                  .foregroundColor(.black)//Replace Notes View
+                TrackingDateView()
             }
             .padding(0)
             .frame(width: 342, alignment: .top)
