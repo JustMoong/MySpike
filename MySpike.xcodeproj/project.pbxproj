@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048AAE152BADC3720011082C /* TrackingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172D72B9D9166000B2A6F /* TrackingCardView.swift */; };
+		048AAE172BADC4CB0011082C /* TrackingTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AAE162BADC4CB0011082C /* TrackingTagsView.swift */; };
 		04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */; };
 		04BFD66A2BADBCBE0050DD00 /* TrackingDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */; };
+		04BFD6772BADC04F0050DD00 /* TrackingNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6762BADC04F0050DD00 /* TrackingNoteView.swift */; };
 		F90B54732BA57BE2006C907C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B54722BA57BE2006C907C /* HomeView.swift */; };
 		F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */; };
 		F97172B22B9D9099000B2A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97172B12B9D9099000B2A6F /* Assets.xcassets */; };
@@ -16,7 +19,6 @@
 		F97172BF2B9D9099000B2A6F /* MySpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172BE2B9D9099000B2A6F /* MySpikeTests.swift */; };
 		F97172C92B9D9099000B2A6F /* MySpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */; };
 		F97172CB2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */; };
-		F97172D82B9D9166000B2A6F /* RecentTrackingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172D72B9D9166000B2A6F /* RecentTrackingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingSymbolView.swift; sourceTree = "<group>"; };
-		04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingDateView.swift; sourceTree = "<group>"; };
+		048AAE162BADC4CB0011082C /* TrackingTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTagsView.swift; sourceTree = "<group>"; };
+		04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingSymbolView.swift; path = MySpike/Card/TrackingSymbolView.swift; sourceTree = SOURCE_ROOT; };
+		04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingDateView.swift; path = MySpike/Card/TrackingDateView.swift; sourceTree = SOURCE_ROOT; };
+		04BFD6762BADC04F0050DD00 /* TrackingNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingNoteView.swift; path = MySpike/Card/TrackingNoteView.swift; sourceTree = SOURCE_ROOT; };
 		F90B54722BA57BE2006C907C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F97172AA2B9D9098000B2A6F /* MySpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeApp.swift; sourceTree = "<group>"; };
@@ -49,7 +53,7 @@
 		F97172C42B9D9099000B2A6F /* MySpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITests.swift; sourceTree = "<group>"; };
 		F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F97172D72B9D9166000B2A6F /* RecentTrackingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTrackingCardView.swift; sourceTree = "<group>"; };
+		F97172D72B9D9166000B2A6F /* TrackingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingCardView.swift; path = MySpike/Card/TrackingCardView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 		04BFD6662BADBC6D0050DD00 /* Card */ = {
 			isa = PBXGroup;
 			children = (
-				F97172D72B9D9166000B2A6F /* RecentTrackingCardView.swift */,
+				F97172D72B9D9166000B2A6F /* TrackingCardView.swift */,
 				04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */,
 				04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */,
+				048AAE162BADC4CB0011082C /* TrackingTagsView.swift */,
+				04BFD6762BADC04F0050DD00 /* TrackingNoteView.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -275,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F97172D82B9D9166000B2A6F /* RecentTrackingCardView.swift in Sources */,
 				F90B54732BA57BE2006C907C /* HomeView.swift in Sources */,
+				048AAE152BADC3720011082C /* TrackingCardView.swift in Sources */,
+				048AAE172BADC4CB0011082C /* TrackingTagsView.swift in Sources */,
 				F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */,
+				04BFD6772BADC04F0050DD00 /* TrackingNoteView.swift in Sources */,
 				04BFD66A2BADBCBE0050DD00 /* TrackingDateView.swift in Sources */,
 				04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */,
 			);

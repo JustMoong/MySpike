@@ -12,7 +12,7 @@ struct TrackingSymbolView: View {
         //The Heart Shape Symbol
         Image(systemName: "heart.fill")
             .resizable()
-            .frame(width: 20, height: 20)
+            .frame(width: 64, height: 64)
             .foregroundColor(.red)
     }
 }

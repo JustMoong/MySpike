@@ -24,7 +24,7 @@ struct HomeView: View {
                 LazyHGrid(rows: [GridItem(.flexible())], spacing: 16) {
                     ForEach(0..<5) { _ in // Replace with your data model here
                         //5개가 될 때까지 반복 표시 구문
-                        RecentTrackingView()
+                        TrackingCardView()
                         //택스트는 중앙이 아닌 좌상단 leading으로 배치되어야 함.
 
                     }
