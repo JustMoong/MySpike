@@ -8,7 +8,6 @@
 //: A SwiftUI-based playground made by DetailsPro for presenting great user interface designs.
 
 import SwiftUI
-import UIKit
 
 struct HomeView: View {
     var body: some View {

@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import UIKit
 
 struct TrackingCardView: View {
     var body: some View {
