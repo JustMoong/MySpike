@@ -19,6 +19,7 @@
 		F97172BF2B9D9099000B2A6F /* MySpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172BE2B9D9099000B2A6F /* MySpikeTests.swift */; };
 		F97172C92B9D9099000B2A6F /* MySpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */; };
 		F97172CB2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */; };
+		F99A864F2BB1593800EA8138 /* NewTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A864E2BB1593800EA8138 /* NewTag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITests.swift; sourceTree = "<group>"; };
 		F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F97172D72B9D9166000B2A6F /* TrackingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingCardView.swift; path = MySpike/CardViews/TrackingCardView.swift; sourceTree = SOURCE_ROOT; };
+		F99A864E2BB1593800EA8138 /* NewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */,
+				F99A864D2BB1591400EA8138 /* Data */,
 				F90B54722BA57BE2006C907C /* HomeView.swift */,
 				04BFD6662BADBC6D0050DD00 /* CardViews */,
 				F97172B12B9D9099000B2A6F /* Assets.xcassets */,
@@ -148,6 +151,14 @@
 				F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */,
 			);
 			path = MySpikeUITests;
+			sourceTree = "<group>";
+		};
+		F99A864D2BB1591400EA8138 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F99A864E2BB1593800EA8138 /* NewTag.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				048AAE172BADC4CB0011082C /* TrackingTagsView.swift in Sources */,
 				F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */,
 				04BFD6772BADC04F0050DD00 /* TrackingNoteView.swift in Sources */,
+				F99A864F2BB1593800EA8138 /* NewTag.swift in Sources */,
 				04BFD66A2BADBCBE0050DD00 /* TrackingDateView.swift in Sources */,
 				04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */,
 			);

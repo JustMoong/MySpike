@@ -7,20 +7,6 @@
 
 import SwiftUI
 
-struct TagItemView: View {
-    var title: String
-    var color: Color
-    
-    var body: some View {
-        Text(title)
-            .font(.body)
-            .padding(8)
-            .background(color)
-            .foregroundColor(.white)
-            .cornerRadius(8)
-    }
-}
-
 struct TrackingTagsView: View {
     var body: some View {
         HStack {
