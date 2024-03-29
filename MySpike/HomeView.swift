@@ -25,12 +25,13 @@ struct HomeView: View {
                         //5개가 될 때까지 반복 표시 구문
                         TrackingCardView()
                         //택스트는 중앙이 아닌 좌상단 leading으로 배치되어야 함.
-
+                     
                     }
                 }
             }
+            
             .padding()
-            Spacer()
+            Spacer() //Replace to StatisticsSummaryView
         }
         .padding(.horizontal, 16)
         

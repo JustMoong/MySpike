@@ -61,3 +61,7 @@ struct NewTagView: View {
         .padding()
     }
 }
+
+#Preview {
+    NewTagView()
+}
