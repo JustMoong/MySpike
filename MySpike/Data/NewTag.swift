@@ -23,10 +23,10 @@ struct TagItemView: View {
 }
 
 struct TagSystemView: View {
-    var tags: [TagItem]
+     var tags: [TagItem]
 
     var body: some View {
-        VStack {
+        LazyVGrid(columns: [GridItem(.flexible())], spacing: 20) {
             ForEach(tags, id: \.id) { tag in
                 TagItemView(title: tag.title, color: tag.color)
             }
@@ -35,9 +35,9 @@ struct TagSystemView: View {
 }
 
 struct TagItem: Identifiable {
-    var id = UUID()
-    var title: String
-    var color: Color
+     var id = UUID()
+     var title: String
+     var color: Color
 }
 
 struct NewTagView: View {

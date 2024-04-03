@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041EFC582BB6BE7300EF27B5 /* ANewTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EFC572BB6BE7300EF27B5 /* ANewTag.swift */; };
 		048AAE152BADC3720011082C /* TrackingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172D72B9D9166000B2A6F /* TrackingCardView.swift */; };
 		048AAE172BADC4CB0011082C /* TrackingTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AAE162BADC4CB0011082C /* TrackingTagsView.swift */; };
 		04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041EFC572BB6BE7300EF27B5 /* ANewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANewTag.swift; sourceTree = "<group>"; };
 		048AAE162BADC4CB0011082C /* TrackingTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTagsView.swift; sourceTree = "<group>"; };
 		04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingSymbolView.swift; path = MySpike/CardViews/TrackingSymbolView.swift; sourceTree = SOURCE_ROOT; };
 		04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingDateView.swift; path = MySpike/CardViews/TrackingDateView.swift; sourceTree = SOURCE_ROOT; };
@@ -55,7 +57,7 @@
 		F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITests.swift; sourceTree = "<group>"; };
 		F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F97172D72B9D9166000B2A6F /* TrackingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingCardView.swift; path = MySpike/CardViews/TrackingCardView.swift; sourceTree = SOURCE_ROOT; };
-		F99A864E2BB1593800EA8138 /* NewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTag.swift; sourceTree = "<group>"; };
+		F99A864E2BB1593800EA8138 /* NewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTag.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				F99A864E2BB1593800EA8138 /* NewTag.swift */,
+				041EFC572BB6BE7300EF27B5 /* ANewTag.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				04BFD6772BADC04F0050DD00 /* TrackingNoteView.swift in Sources */,
 				F99A864F2BB1593800EA8138 /* NewTag.swift in Sources */,
 				04BFD66A2BADBCBE0050DD00 /* TrackingDateView.swift in Sources */,
+				041EFC582BB6BE7300EF27B5 /* ANewTag.swift in Sources */,
 				04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
