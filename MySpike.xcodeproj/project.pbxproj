@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041EFC582BB6BE7300EF27B5 /* ANewTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EFC572BB6BE7300EF27B5 /* ANewTag.swift */; };
-		048AAE152BADC3720011082C /* TrackingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172D72B9D9166000B2A6F /* TrackingCardView.swift */; };
-		048AAE172BADC4CB0011082C /* TrackingTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AAE162BADC4CB0011082C /* TrackingTagsView.swift */; };
-		04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */; };
-		04BFD66A2BADBCBE0050DD00 /* TrackingDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */; };
-		04BFD6772BADC04F0050DD00 /* TrackingNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFD6762BADC04F0050DD00 /* TrackingNoteView.swift */; };
 		F90B54732BA57BE2006C907C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B54722BA57BE2006C907C /* HomeView.swift */; };
 		F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */; };
 		F97172B22B9D9099000B2A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97172B12B9D9099000B2A6F /* Assets.xcassets */; };
@@ -20,7 +14,15 @@
 		F97172BF2B9D9099000B2A6F /* MySpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172BE2B9D9099000B2A6F /* MySpikeTests.swift */; };
 		F97172C92B9D9099000B2A6F /* MySpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */; };
 		F97172CB2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */; };
-		F99A864F2BB1593800EA8138 /* NewTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A864E2BB1593800EA8138 /* NewTag.swift */; };
+		F99A864F2BB1593800EA8138 /* NewTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A864E2BB1593800EA8138 /* NewTagView.swift */; };
+		F9D7CB312BCFA5FE0046EDE4 /* HeaderConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB302BCFA5FE0046EDE4 /* HeaderConditions.swift */; };
+		F9D7CB332BCFA7600046EDE4 /* TotalRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB322BCFA7600046EDE4 /* TotalRecords.swift */; };
+		F9D7CB352BCFA80F0046EDE4 /* BodyConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB342BCFA80F0046EDE4 /* BodyConditions.swift */; };
+		F9D7CB372BCFA8B20046EDE4 /* RecordTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB362BCFA8B20046EDE4 /* RecordTime.swift */; };
+		F9D7CB392BCFA8FA0046EDE4 /* HeaderStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB382BCFA8FA0046EDE4 /* HeaderStrings.swift */; };
+		F9D7CB3B2BCFA9700046EDE4 /* BodyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB3A2BCFA9700046EDE4 /* BodyStrings.swift */; };
+		F9D7CB3F2BCFAAE40046EDE4 /* HeaderConditionSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB3E2BCFAAE30046EDE4 /* HeaderConditionSymbol.swift */; };
+		F9D7CB412BCFAB730046EDE4 /* BodyConditionSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7CB402BCFAB730046EDE4 /* BodyConditionSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041EFC572BB6BE7300EF27B5 /* ANewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANewTag.swift; sourceTree = "<group>"; };
-		048AAE162BADC4CB0011082C /* TrackingTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTagsView.swift; sourceTree = "<group>"; };
-		04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingSymbolView.swift; path = MySpike/CardViews/TrackingSymbolView.swift; sourceTree = SOURCE_ROOT; };
-		04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingDateView.swift; path = MySpike/CardViews/TrackingDateView.swift; sourceTree = SOURCE_ROOT; };
-		04BFD6762BADC04F0050DD00 /* TrackingNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingNoteView.swift; path = MySpike/CardViews/TrackingNoteView.swift; sourceTree = SOURCE_ROOT; };
 		F90B54722BA57BE2006C907C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F97172AA2B9D9098000B2A6F /* MySpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeApp.swift; sourceTree = "<group>"; };
@@ -56,8 +53,15 @@
 		F97172C42B9D9099000B2A6F /* MySpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172C82B9D9099000B2A6F /* MySpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITests.swift; sourceTree = "<group>"; };
 		F97172CA2B9D9099000B2A6F /* MySpikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F97172D72B9D9166000B2A6F /* TrackingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackingCardView.swift; path = MySpike/CardViews/TrackingCardView.swift; sourceTree = SOURCE_ROOT; };
-		F99A864E2BB1593800EA8138 /* NewTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTag.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		F99A864E2BB1593800EA8138 /* NewTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTagView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		F9D7CB302BCFA5FE0046EDE4 /* HeaderConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderConditions.swift; sourceTree = "<group>"; };
+		F9D7CB322BCFA7600046EDE4 /* TotalRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalRecords.swift; sourceTree = "<group>"; };
+		F9D7CB342BCFA80F0046EDE4 /* BodyConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyConditions.swift; sourceTree = "<group>"; };
+		F9D7CB362BCFA8B20046EDE4 /* RecordTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTime.swift; sourceTree = "<group>"; };
+		F9D7CB382BCFA8FA0046EDE4 /* HeaderStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStrings.swift; sourceTree = "<group>"; };
+		F9D7CB3A2BCFA9700046EDE4 /* BodyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyStrings.swift; sourceTree = "<group>"; };
+		F9D7CB3E2BCFAAE30046EDE4 /* HeaderConditionSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderConditionSymbol.swift; sourceTree = "<group>"; };
+		F9D7CB402BCFAB730046EDE4 /* BodyConditionSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyConditionSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,18 +89,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04BFD6662BADBC6D0050DD00 /* CardViews */ = {
-			isa = PBXGroup;
-			children = (
-				F97172D72B9D9166000B2A6F /* TrackingCardView.swift */,
-				04BFD6692BADBCBE0050DD00 /* TrackingDateView.swift */,
-				04BFD6672BADBC8D0050DD00 /* TrackingSymbolView.swift */,
-				048AAE162BADC4CB0011082C /* TrackingTagsView.swift */,
-				04BFD6762BADC04F0050DD00 /* TrackingNoteView.swift */,
-			);
-			path = CardViews;
-			sourceTree = "<group>";
-		};
 		F97172A12B9D9098000B2A6F = {
 			isa = PBXGroup;
 			children = (
@@ -121,9 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */,
-				F99A864D2BB1591400EA8138 /* Data */,
 				F90B54722BA57BE2006C907C /* HomeView.swift */,
-				04BFD6662BADBC6D0050DD00 /* CardViews */,
+				F9D7CB2F2BCFA5C30046EDE4 /* CardView */,
+				F99A864D2BB1591400EA8138 /* UserData */,
 				F97172B12B9D9099000B2A6F /* Assets.xcassets */,
 				F97172B32B9D9099000B2A6F /* Preview Content */,
 			);
@@ -155,13 +147,44 @@
 			path = MySpikeUITests;
 			sourceTree = "<group>";
 		};
-		F99A864D2BB1591400EA8138 /* Data */ = {
+		F99A864D2BB1591400EA8138 /* UserData */ = {
 			isa = PBXGroup;
 			children = (
-				F99A864E2BB1593800EA8138 /* NewTag.swift */,
-				041EFC572BB6BE7300EF27B5 /* ANewTag.swift */,
+				F99A864E2BB1593800EA8138 /* NewTagView.swift */,
 			);
-			path = Data;
+			path = UserData;
+			sourceTree = "<group>";
+		};
+		F9D7CB2F2BCFA5C30046EDE4 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				F9D7CB3D2BCFAAD30046EDE4 /* Symbols */,
+				F9D7CB3C2BCFAAAD0046EDE4 /* Strings */,
+			);
+			name = CardView;
+			path = MySpike/CardView;
+			sourceTree = SOURCE_ROOT;
+		};
+		F9D7CB3C2BCFAAAD0046EDE4 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F9D7CB302BCFA5FE0046EDE4 /* HeaderConditions.swift */,
+				F9D7CB322BCFA7600046EDE4 /* TotalRecords.swift */,
+				F9D7CB362BCFA8B20046EDE4 /* RecordTime.swift */,
+				F9D7CB342BCFA80F0046EDE4 /* BodyConditions.swift */,
+				F9D7CB382BCFA8FA0046EDE4 /* HeaderStrings.swift */,
+				F9D7CB3A2BCFA9700046EDE4 /* BodyStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		F9D7CB3D2BCFAAD30046EDE4 /* Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				F9D7CB3E2BCFAAE30046EDE4 /* HeaderConditionSymbol.swift */,
+				F9D7CB402BCFAB730046EDE4 /* BodyConditionSymbol.swift */,
+			);
+			path = Symbols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,15 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D7CB412BCFAB730046EDE4 /* BodyConditionSymbol.swift in Sources */,
+				F9D7CB3F2BCFAAE40046EDE4 /* HeaderConditionSymbol.swift in Sources */,
+				F9D7CB312BCFA5FE0046EDE4 /* HeaderConditions.swift in Sources */,
+				F9D7CB392BCFA8FA0046EDE4 /* HeaderStrings.swift in Sources */,
+				F9D7CB372BCFA8B20046EDE4 /* RecordTime.swift in Sources */,
 				F90B54732BA57BE2006C907C /* HomeView.swift in Sources */,
-				048AAE152BADC3720011082C /* TrackingCardView.swift in Sources */,
-				048AAE172BADC4CB0011082C /* TrackingTagsView.swift in Sources */,
+				F9D7CB332BCFA7600046EDE4 /* TotalRecords.swift in Sources */,
+				F9D7CB352BCFA80F0046EDE4 /* BodyConditions.swift in Sources */,
+				F9D7CB3B2BCFA9700046EDE4 /* BodyStrings.swift in Sources */,
 				F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */,
-				04BFD6772BADC04F0050DD00 /* TrackingNoteView.swift in Sources */,
-				F99A864F2BB1593800EA8138 /* NewTag.swift in Sources */,
-				04BFD66A2BADBCBE0050DD00 /* TrackingDateView.swift in Sources */,
-				041EFC582BB6BE7300EF27B5 /* ANewTag.swift in Sources */,
-				04BFD6682BADBC8D0050DD00 /* TrackingSymbolView.swift in Sources */,
+				F99A864F2BB1593800EA8138 /* NewTagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

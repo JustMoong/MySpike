@@ -48,7 +48,6 @@ struct NewTagView: View {
         VStack {
             TextField("Enter new tag", text: $newTagText)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
 
             Button("Add Tag") {
                 let newTag = TagItem(id: UUID(), title: newTagText, color: .purple)
