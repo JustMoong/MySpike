@@ -11,7 +11,7 @@ import SwiftUI
 struct BodyConditionSymbol: View {
     var body: some View {
         Circle()
-            .frame(maxWidth: 80, maxHeight: 80)
+            .frame(maxWidth: 64, maxHeight: 64)
     }
 }
 

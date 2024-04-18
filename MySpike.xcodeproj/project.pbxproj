@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F90B54732BA57BE2006C907C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B54722BA57BE2006C907C /* HomeView.swift */; };
+		F954D13A2BD0F70700F18CB9 /* CardBodyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954D1392BD0F70700F18CB9 /* CardBodyItem.swift */; };
+		F954D13C2BD0F7E700F18CB9 /* CardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954D13B2BD0F7E700F18CB9 /* CardHeader.swift */; };
+		F954D13E2BD0F86700F18CB9 /* CardBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954D13D2BD0F86700F18CB9 /* CardBody.swift */; };
+		F954D1402BD0F8CD00F18CB9 /* ViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954D13F2BD0F8CD00F18CB9 /* ViewDetails.swift */; };
 		F97172AE2B9D9098000B2A6F /* MySpikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */; };
 		F97172B22B9D9099000B2A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97172B12B9D9099000B2A6F /* Assets.xcassets */; };
 		F97172B52B9D9099000B2A6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97172B42B9D9099000B2A6F /* Preview Assets.xcassets */; };
@@ -44,6 +48,10 @@
 
 /* Begin PBXFileReference section */
 		F90B54722BA57BE2006C907C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F954D1392BD0F70700F18CB9 /* CardBodyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBodyItem.swift; sourceTree = "<group>"; };
+		F954D13B2BD0F7E700F18CB9 /* CardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeader.swift; sourceTree = "<group>"; };
+		F954D13D2BD0F86700F18CB9 /* CardBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBody.swift; sourceTree = "<group>"; };
+		F954D13F2BD0F8CD00F18CB9 /* ViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetails.swift; sourceTree = "<group>"; };
 		F97172AA2B9D9098000B2A6F /* MySpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97172AD2B9D9098000B2A6F /* MySpikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpikeApp.swift; sourceTree = "<group>"; };
 		F97172B12B9D9099000B2A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,6 +166,10 @@
 		F9D7CB2F2BCFA5C30046EDE4 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
+				F954D1392BD0F70700F18CB9 /* CardBodyItem.swift */,
+				F954D13B2BD0F7E700F18CB9 /* CardHeader.swift */,
+				F954D13D2BD0F86700F18CB9 /* CardBody.swift */,
+				F954D13F2BD0F8CD00F18CB9 /* ViewDetails.swift */,
 				F9D7CB3D2BCFAAD30046EDE4 /* Symbols */,
 				F9D7CB3C2BCFAAAD0046EDE4 /* Strings */,
 			);
@@ -318,11 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F954D13A2BD0F70700F18CB9 /* CardBodyItem.swift in Sources */,
 				F9D7CB412BCFAB730046EDE4 /* BodyConditionSymbol.swift in Sources */,
 				F9D7CB3F2BCFAAE40046EDE4 /* HeaderConditionSymbol.swift in Sources */,
+				F954D13E2BD0F86700F18CB9 /* CardBody.swift in Sources */,
 				F9D7CB312BCFA5FE0046EDE4 /* HeaderConditions.swift in Sources */,
+				F954D13C2BD0F7E700F18CB9 /* CardHeader.swift in Sources */,
 				F9D7CB392BCFA8FA0046EDE4 /* HeaderStrings.swift in Sources */,
 				F9D7CB372BCFA8B20046EDE4 /* RecordTime.swift in Sources */,
+				F954D1402BD0F8CD00F18CB9 /* ViewDetails.swift in Sources */,
 				F90B54732BA57BE2006C907C /* HomeView.swift in Sources */,
 				F9D7CB332BCFA7600046EDE4 /* TotalRecords.swift in Sources */,
 				F9D7CB352BCFA80F0046EDE4 /* BodyConditions.swift in Sources */,
